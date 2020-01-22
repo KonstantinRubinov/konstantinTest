@@ -1,0 +1,9 @@
+cd /mnt/c/Users/konstantin/Downloads
+cd /mnt/c/welcome
+
+psping bash
+psping -u konstantin -c 3 bash
+
+unpack *
+unpack -r -v *
+unpack -r -v archive.bz2 archive.gz
